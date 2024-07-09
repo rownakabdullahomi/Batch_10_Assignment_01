@@ -73,30 +73,27 @@ body {
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
-}
+ }
 
 /* Banner Section Ends */
-
+/* --------------------------------------------------------------------------------------------- */
+/* Why Web Development Section Starts */
 .why-web-dev {
     margin: 0 auto;
-    margin-top: 72px;
-    max-width: 1140px;
-    height: 1395px;
+    width: 1140px;
+    min-height: 1395px;
     /* border: 2px solid red; */
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+    /* background-color: aqua; */
+    margin-bottom: 88px;
 }
 
 .web-dev-container {
     margin: 80px 97px;
-    max-width: 946px;
     height: 1235px;
     /* border: 2px solid red; */
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
 }
-
 .web-dev-text {
     max-width: 852px;
     /* border: 2px solid red; */
@@ -105,8 +102,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 48px;
 }
-
 .web-dev-text h1 {
     font-size: 32px;
     font-weight: 800;
@@ -120,20 +117,21 @@ body {
     color: #0D1321;
     text-align: center;
 }
-
-.web-dev-card {
-    width: 850px;
-    height: 255px;
-    /* border: 2px solid black; */
+.card-container{
+    /* border: 2px solid black;  */
     margin: 0 auto;
+    padding: 48px;
+    background-color: white;
+    margin-bottom: 35px;
+    border-radius: 12px;
+}
+.web-dev-card {
+    /* border: 2px solid black; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    border-radius: 8px;
+    column-gap: 98px;
 }
-
 .card-col {
-    width: 477px;
     height: 245px;
     /* border: .5px solid red; */
     display: flex;
@@ -141,18 +139,13 @@ body {
     flex-direction: column;
 }
 
-.card-col-img {
-    width: 280px;
-    height: 245px;
-    /* border: .5px solid black; */
-}
+/* .card-col-img {} */
 
 .card-col h2 {
     font-size: 24px;
     font-weight: 700;
     color: rgba(13, 19, 33, 0.7);
 }
-
 .card-col p {
     font-size: 16px;
     font-weight: 400;
@@ -173,4 +166,13 @@ body {
     font-weight: 600;
     text-decoration: none;
     color: rgb(13, 19, 33);
+} 
+/* Why Web Development Section Ends */
+/* --------------------------------------------------------------------------------------------- */
+/* My Inspiration Section Start */
+.my-inspiration{
+    width: 1140px;
+height: 777px;
+border: 2px solid red;
+margin: 80px auto;
 }
