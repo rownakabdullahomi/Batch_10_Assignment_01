@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -63,13 +64,16 @@ body {
     margin-top: 44px;
     width: 208px;
     height: 66px;
-    padding: 21px 24px 21px 24px;
+    
     border-radius: 8px;
     background: rgb(13, 19, 33);
 }
 
 .banner-container button a {
+    width: 208px;
+    height: 66px;
     color: white;
+    padding: 21px 24px 21px 24px;
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
