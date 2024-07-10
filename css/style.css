@@ -10,11 +10,45 @@
 body {
     font-family: "Azeret Mono", monospace;
 }
+/* Navbar Section Starts */
+.navbar {
+    max-width: 1440px;
+    min-height: 132px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.navbar h2 {
+    margin-left: 150px;
+    font-size: 28px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+
+.navbar button {
+    height: 58px;
+    margin-top: 5px;
+    margin-right: 150px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+.navbar button a {
+    padding: 17px 23px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+}
+/* Navbar Section Ends */
+/* --------------------------------------------------------------------------------------------- */
 /* Banner Section Starts */
 .banner-section {
     min-height: 652px;
-    max-width: 1448px;
+    max-width: 1440px;
     background-image: url("../assets/Hero-bg.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -64,7 +98,7 @@ body {
     margin-top: 44px;
     width: 208px;
     height: 66px;
-    
+
     border-radius: 8px;
     background: rgb(13, 19, 33);
 }
@@ -346,40 +380,43 @@ input::placeholder {
     font-size: 20px;
     font-weight: 600;
     border: none;
+    cursor: pointer;
 }
 
 /* Need Support Section Ends */
 /* --------------------------------------------------------------------------------------------- */
 /* Bottom Section Starts */
-.bottom-section{
+.bottom-section {
     max-width: 1440px;
-min-height: 100px;
-/* border: 1px solid red; */
-margin: 0 auto;
-margin-top: 80px;
-border-radius: 16px;
-background: rgba(13, 19, 33, 0.03);
-display: flex;
-justify-content: center;
-align-items: center;
-}
-.bottom-container{
-    width: 1140px;
-/* border: 1px solid black; */
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-.bottom-container p{
-/* border: 1px solid yellow; */
-font-size: 20px;
-font-weight: 600;
-}
-.icons-container{
-    width: 160px;
-height: 36px;
-/* border: 1px solid yellow; */
-display: flex;
-justify-content: space-between;
+    min-height: 100px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.bottom-container {
+    width: 1140px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-container p {
+    /* border: 1px solid yellow; */
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.icons-container {
+    width: 160px;
+    height: 36px;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+}
