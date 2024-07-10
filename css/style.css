@@ -73,7 +73,7 @@ body {
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
- }
+}
 
 /* Banner Section Ends */
 /* --------------------------------------------------------------------------------------------- */
@@ -94,6 +94,7 @@ body {
     height: 1235px;
     /* border: 2px solid red; */
 }
+
 .web-dev-text {
     max-width: 852px;
     /* border: 2px solid red; */
@@ -104,6 +105,7 @@ body {
     flex-direction: column;
     margin-bottom: 48px;
 }
+
 .web-dev-text h1 {
     font-size: 32px;
     font-weight: 800;
@@ -117,7 +119,8 @@ body {
     color: #0D1321;
     text-align: center;
 }
-.card-container{
+
+.card-container {
     /* border: 2px solid black;  */
     margin: 0 auto;
     padding: 48px;
@@ -125,12 +128,14 @@ body {
     margin-bottom: 35px;
     border-radius: 12px;
 }
+
 .web-dev-card {
     /* border: 2px solid black; */
     display: flex;
     align-items: center;
     column-gap: 98px;
 }
+
 .card-col {
     height: 245px;
     /* border: .5px solid red; */
@@ -146,6 +151,7 @@ body {
     font-weight: 700;
     color: rgba(13, 19, 33, 0.7);
 }
+
 .card-col p {
     font-size: 16px;
     font-weight: 400;
@@ -166,13 +172,104 @@ body {
     font-weight: 600;
     text-decoration: none;
     color: rgb(13, 19, 33);
-} 
+}
+
 /* Why Web Development Section Ends */
 /* --------------------------------------------------------------------------------------------- */
 /* My Inspiration Section Start */
-.my-inspiration{
-    width: 1140px;
-height: 777px;
-border: 2px solid red;
-margin: 80px auto;
+.my-inspiration {
+    max-width: 1140px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 80px;
 }
+
+.text-box {
+    max-width: 852px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    margin-bottom: 50px;
+}
+
+.text-box h1 {
+    width: 852px;
+    height: 39px;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.text-box p {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+    color: rgb(13, 19, 33);
+}
+
+.media-box {
+    width: 1140px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    /* border: 2px solid black; */
+}
+
+.media-container {
+    width: 1076px;
+    /* border: 2px solid black; */
+    margin: 35px auto;
+
+}
+
+.media-container iframe {
+    border-radius: 16px;
+}
+
+/* My Inspiration Section Ends */
+/* --------------------------------------------------------------------------------------------- */
+/* My Current Target Section Start */
+.current-target {
+    max-width: 1140px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.skill-box-container {
+    /* border: 1px solid black; */
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.skill-box {
+    min-width: 364px;
+    min-height: 300px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.skill-box-wrapper {
+    max-width: 284px;
+    min-height: 220px;
+    /* border: 1px solid black; */
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* .skill-box-wrapper img{}
+.skill-box-wrapper h2{}
+.skill-box-wrapper p{} */
+.skill-box-wrapper a {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+}
+
+/* My Current Target Section Ends */
+/* --------------------------------------------------------------------------------------------- */
+/*  Section Start */
