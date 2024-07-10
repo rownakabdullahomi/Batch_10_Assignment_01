@@ -244,7 +244,7 @@ body {
 }
 
 .skill-box {
-    min-width: 364px;
+    width: 364px;
     min-height: 300px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
@@ -274,8 +274,7 @@ body {
 /* --------------------------------------------------------------------------------------------- */
 /* Need Support Section Starts */
 .need-support {
-    width: 1140px;
-    height: 314px;
+    max-width: 1140px;
     /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 70px;
@@ -289,15 +288,13 @@ body {
 }
 
 .need-support-container {
-    width: 1044px;
-    height: 186px;
+    max-width: 1044px;
     margin: 64px auto;
     /* border: 2px solid white; */
 }
 
 .support-textbox {
-    width: 730px;
-    height: 104px;
+    min-height: 104px;
     margin: 0 auto;
     /* border: 2px solid yellow; */
     display: flex;
@@ -319,8 +316,6 @@ body {
 }
 
 .input-container {
-    width: 685px;
-    height: 58px;
     margin: 0 auto;
     margin-top: 24px;
     display: flex;
@@ -329,7 +324,6 @@ body {
 
 .text-input {
     width: 548px;
-    height: 57px;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     padding: 19px 20px;
@@ -343,7 +337,6 @@ input::placeholder {
 
 .submit-btn {
     width: 120px;
-    height: 56px;
     border-radius: 8px;
     margin-left: 6px;
     font-size: 20px;
