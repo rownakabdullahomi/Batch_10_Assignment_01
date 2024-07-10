@@ -10,6 +10,33 @@
 body {
     font-family: "Azeret Mono", monospace;
 }
+
+/* --------------------------------------------------------------------------------------------- */
+/* Shared Item */
+.text-box {
+    max-width: 852px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    margin-bottom: 50px;
+}
+
+.text-box h1 {
+    width: 852px;
+    height: 39px;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.text-box p {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+    color: rgb(13, 19, 33);
+}
+
+/* --------------------------------------------------------------------------------------------- */
 /* Navbar Section Starts */
 .navbar {
     max-width: 1440px;
@@ -43,6 +70,7 @@ body {
     font-weight: 600;
     color: rgb(13, 19, 33);
 }
+
 /* Navbar Section Ends */
 /* --------------------------------------------------------------------------------------------- */
 /* Banner Section Starts */
@@ -222,28 +250,7 @@ body {
     margin-top: 80px;
 }
 
-.text-box {
-    max-width: 852px;
-    margin: 0 auto;
-    /* border: 2px solid black; */
-    margin-bottom: 50px;
-}
 
-.text-box h1 {
-    width: 852px;
-    height: 39px;
-    color: rgb(13, 19, 33);
-    text-align: center;
-    margin-bottom: 24px;
-}
-
-.text-box p {
-    font-size: 16px;
-    font-weight: 400;
-    opacity: 0.7;
-    text-align: center;
-    color: rgb(13, 19, 33);
-}
 
 .media-box {
     width: 1140px;
@@ -299,17 +306,78 @@ body {
     align-items: flex-start;
 }
 
-/* .skill-box-wrapper img{}
-.skill-box-wrapper h2{}
-.skill-box-wrapper p{} */
-.skill-box-wrapper a {
+.skill-box-wrapper img {
+    width: 56px;
+    height: 56px;
+}
+
+.skill-box-wrapper h2,
+.next-skill-text-wrapper h2 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.skill-box-wrapper p,
+.next-skill-text-wrapper p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+}
+
+.skill-box-wrapper a,
+.next-skill-text-wrapper a {
     font-size: 16px;
     font-weight: 700;
     color: rgb(13, 19, 33);
+
 }
 
 /* My Current Target Section Ends */
 /* --------------------------------------------------------------------------------------------- */
+/* My Next Target Section Starts */
+.next-target {
+    width: 1140px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 155px;
+}
+
+.next-skills {
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+
+.next-skill-box {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.next-skill-box img {
+    width: 110px;
+    height: 95px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.next-skill-text-wrapper {
+    width: 910px;
+    height: 140px;
+    padding: 2px 0;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* My Next Target Section Ends */
+/* --------------------------------------------------------------------------------------------- */
+
+
 /* Need Support Section Starts */
 .need-support {
     max-width: 1140px;
